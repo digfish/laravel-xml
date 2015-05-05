@@ -1,5 +1,5 @@
 {
-    "name": "pyrello/laravel-xml",
+    "name": "digfish/laravel-xml",
     "description": "Adds missing XML features to Laravel",
     "license": "MIT",
     "authors": [

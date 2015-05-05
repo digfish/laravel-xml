@@ -34,7 +34,11 @@ class XmlTools
 
                 // We use the $xml->{$key} form to add the item because this causes
                 // conversion of '&' => '&amp;'
-                $xml->{$key} = $item;
+                if (!isset($key)) {
+                    $xml->something = $item;
+                } else {
+                    $xml->{$key} = $item;
+                }
             }
         }
 
